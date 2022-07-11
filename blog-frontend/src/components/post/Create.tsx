@@ -90,7 +90,7 @@ function Create(): JSX.Element {
           <input type="text" id="body" onChange={(e) => handleInputChanges(e)} name="body" className="form-control" placeholder="Ingrese Contenido" />
         </div>
         <div className="form-group col-md-12">
-          <label htmlFor="author"> Author </label>
+          <label htmlFor="author"> Autor </label>
           <input type="text" id="author" defaultValue={author} onChange={(e) => handleInputChanges(e)} name="author" className="form-control" />
         </div>
         <div className="form-group col-md-4 pull-right">
