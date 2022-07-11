@@ -4,6 +4,8 @@ import { BlogService } from './blog.service';
 import { CreatePostDTO } from './dto/create-post.dto';
 import { ValidateObjectId } from './shared/pipes/validate-object-id.pipes';
 
+//Controla las HTTP requests
+
 @Controller('blog')
 export class BlogController {
 
